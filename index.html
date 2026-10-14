@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prom autopilot</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d1d1b; --muted:#5d5d58; --accent:#1f5fbf; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151514; --fg:#ecebe6; --muted:#a8a79f; --accent:#7fb0ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:28px; margin:0 0 8px; } p { margin:0 0 14px; } .muted { color:var(--muted); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Prom autopilot</h1>
+  <p>Prom autopilot is a private, internal tool of the Vision Dynamics auto parts store on Prom.ua.
+  It prepares product cards (titles, descriptions, search phrases) for the store's own catalogue.</p>
+  <p>It uses the Google Ads API (Keyword Planner historical metrics) in read-only mode, only for the
+  owner's own Google Ads account, to learn how often search phrases are used in Ukraine and to order
+  them in the store's product cards. It does not create or change ads, campaigns or budgets, and it
+  has no other users.</p>
+  <p class="muted">Prom autopilot — внутрішній інструмент магазину Vision Dynamics на Prom.ua. Він лише
+  читає статистику пошукових фраз Google Ads для власного акаунта власника, щоб упорядкувати запити в
+  картках товарів. Реклами не створює й не змінює.</p>
+  <p><a href="privacy.html">Privacy policy / Політика конфіденційності</a></p>
+</main>
+</body>
+</html>
